@@ -1,0 +1,16 @@
+<hr class="spacer">
+          <!-- Sample Site #1-->
+          <div class="inner cover">
+            <h1 class="cover-heading">Taylor Made Homes, Inc.</h1>
+            <p class="lead">Builder of fine homes, Eugene, OR.</p>
+            <p>Taylor Made Homes and its president have been building homes in the Eugene area for over 30 years.  They recently employed my services to build them a state-of-the-art website.</p>
+            <iframe src="http://www.joetaylormadehomes.com"></iframe>
+            <h3>Technical Particulars:</h3>
+              <ul>
+                <li>Employed Bootstrap Framework</li>
+                <li></li>
+              </ul>
+            <p class="lead">
+              <a href="www.joetaylormadehomes.com" target="_blank" class="btn btn-lg btn-default">Visit Live Site</a>
+            </p>
+          </div>
