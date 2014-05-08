@@ -53,48 +53,80 @@
         <p>On this website we highlight some of the most recent projects we have undertaken.  Please <a href="contact.html">contact us</a> for more examples or to discuss details.</p>
     </div>
 
-    <!-- Grid for portfolio example #1 - TMH, Inc. -->
-    <div class="container portfolio">
-      <hr>
-      <h3>April 2014</h3>
-      <h4>Taylor Made Homes, Inc.</h4>
+    <!-- make accordion for TMH -->
+      <!-- add these lines as header and footer in a panel -->
+      <!-- <h3>April 2014</h3>
+      <h4>Taylor Made Homes, Inc.</h4> -->
       <!-- row 1 for mobile -->
-      <div class ="row">
+
         <!-- xs: 2 rows, 1st row 2 equal columns, one row full width-->
         <!-- md & lg: 1 row, 3 equal columns -->
-        <div class="col-xs-6 col-md-4">
-          <img class="img-responsive" src="img/work/TMH_iphone5.png">
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <img class="img-responsive" id="nexus5_01" src="img/work/TMH_nexus5.png">
-        </div>
-        <div class ="col-md-4">
-          <p>Turpis integer turpis aliquam, placerat magna.</p> 
-          <ul>
-            <li>Ultricies! Integer lundium cum nec! </li>
-            <li>Pid odio quis. Tincidunt scelerisque</li>
-            <li>tortor cum enim dolor tempor, </li>
-          </ul>
-        </div>
-      </div>
+ <div class="bs-example">   
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <h3>April 2014 - Taylor Made Homes, Inc.</h3>
+
+      <div class="panel-group" id="accordion">
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h4 class="panel-title">
+             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+               TMH iPhone 5
+             </a>
+           </h4>
+         </div><!-- closes panel-heading div -->
+         <div id="collapseOne" class="panel-collapse collapse in">
+           <div class="panel-body">
+             <img class="img-responsive" src="img/work/TMH_iphone5.png">
+           </div><!-- close panel-body -->
+         </div><!-- close collapseOne -->
+       </div><!-- close panel default -->
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h4 class="panel-title">
+             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+               TMH Nexus 5
+             </a>
+           </h4>
+         </div><!-- close panel heading -->
+         <div id="collapseTwo" class="panel-collapse collapse">
+           <div class="panel-body">
+             <img class="img-responsive" id="nexus5_01" src="img/work/TMH_nexus5.png">
+           </div><!-- close panel body   -->
+         </div><!-- close collapseTwo -->
+       </div><!-- close panel-default -->
+     </div> <!-- closes panel-group div -->
+      <div class="panel-footer">
+        <p>Live site at <a href="htt://www.joetaylormadehomes.com" target="_blank">www.joetaylormadehomes.com</a></p>
+      </div><!-- close footer -->
+     </div>
+    </div>
+  </div>
 
 
-      <!-- row 3 for desktop screenshot -->
-      <div class ="row">
-        <div class="col-md-6">
+                <p>Turpis integer turpis aliquam, placerat magna.</p> 
+                <ul>
+                  <li>Ultricies! Integer lundium cum nec! </li>
+                  <li>Pid odio quis. Tincidunt scelerisque</li>
+                  <li>tortor cum enim dolor tempor, </li>
+                </ul>
+
+
+
           <img class="img-responsive" src="img/work/TMH_desktop_screenshot.png">
-        </div>
-        <div class="col-md-6">
+
+
           <p>Turpis integer turpis aliquam, placerat magna.</p> 
           <ul>
             <li>Ultricies! Integer lundium cum nec! </li>
             <li>Pid odio quis. Tincidunt scelerisque</li>
             <li>tortor cum enim dolor tempor, </li>
           </ul>
-        </div>
-      </div>
 
-    </div> <!-- close portfolio 2 grid  -->
+        
+
+
+
 
         <!-- Grid for portfolio example #2 - EMFR. -->
     <div class="container">

@@ -2,7 +2,7 @@ body {
   background-color: #edf7f2;
   font-family: "Alegreya", serif;
   color: #241911; }
-  body h1, body h2, body h3 {
+  body h1, body h2, body h3, body h4 {
     font-family: 'Oswald', sans-serif; }
   body .navbar-default, body .navbar-brand {
     background-color: #241911;
