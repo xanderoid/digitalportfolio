@@ -1,20 +1,17 @@
 body {
   background-color: #edf7f2;
-  font: "Libre Baskerville", serif;
+  font-family: "Alegreya", serif;
   color: #241911; }
-  body h1 h2 h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700; }
-  body .navbar-default {
+  body h1, body h2, body h3 {
+    font-family: 'Oswald', sans-serif; }
+  body .navbar-default, body .navbar-brand {
     background-color: #241911;
     border-color: #000;
-    color: #4bb5c1 !important; }
-  body .navbar-brand {
-    background-color: #241911;
-    border-color: #000;
-    color: #4bb5c1 !important; }
+    color: #4bb5c1 !important;
+    font-family: 'Oswald'; }
   body .navbar-nav > li > a {
-    color: #4bb5c1 !important; }
+    color: #4bb5c1 !important;
+    font-family: 'Oswald'; }
   body .navbar-nav > li > a:hover {
     color: #7fc6bc !important; }
   body .navbar-toggle {
@@ -24,10 +21,8 @@ body {
     border-color: #000;
     color: #4bb5c1 !important; }
     body #footer p {
-      font-family: 'Oswald', sans-serif; }
-  body p {
-    font-family: "Libre Baskerville", serif;
-    text-align: center; }
+      font-family: 'Oswald', sans-serif;
+      text-align: center; }
   body ul {
     text-align: left; }
 
