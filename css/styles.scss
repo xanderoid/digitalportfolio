@@ -16,7 +16,7 @@ body {
 	background-color: #edf7f2;
 	font-family: $font-stack;
 	color: $primary-color;
-	h1, h2, h3, h4 {
+	h1, h2, h3, h4, h5 {
 		font-family: 'Oswald', sans-serif;
 		}
 	
@@ -65,4 +65,12 @@ body {
 }
 #nexus5_02{
 	padding-bottom: 20px !important;
+}
+
+.panel-group {
+	max-width: 98%;
+	margin: 0 auto;
+	@media (min-width: 768px){
+		max-width: 95%;
+	}
 }
