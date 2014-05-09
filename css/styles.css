@@ -45,3 +45,8 @@ body {
   @media (min-width: 768px) {
     .panel-group {
       max-width: 95%; } }
+
+#contact-options, #contact-options li {
+  list-style: none;
+  list-style-type: none;
+  background-image: none; }
