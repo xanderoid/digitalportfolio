@@ -46,7 +46,6 @@ body {
     .panel-group {
       max-width: 95%; } }
 
-#contact-options, #contact-options li {
-  list-style: none;
-  list-style-type: none;
-  background-image: none; }
+.contact-options {
+  list-style-type: none !important;
+  background: none !important; }
