@@ -72,3 +72,6 @@ body {
   .center-block button {
     margin-bottom: 10px;
     border-color: #241911; }
+
+.live-link {
+  text-align: center; }
