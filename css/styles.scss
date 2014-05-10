@@ -78,6 +78,9 @@ body {
 .contact-options {
 	list-style-type: none !important;
 	background: none !important;
+	li {
+		margin: 0 auto;
+	}
 
 }
 
@@ -95,5 +98,13 @@ body {
 	}
 	@media (min-width: 1200px) {
 		max-width: 1000px;
+	}
+}
+
+.center-block  {
+	max-width: 200px;
+	button {
+		margin-bottom: 10px;
+		border-color: $primary-accent-color;
 	}
 }

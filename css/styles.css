@@ -49,6 +49,8 @@ body {
 .contact-options {
   list-style-type: none !important;
   background: none !important; }
+  .contact-options li {
+    margin: 0 auto; }
 
 .container h1 {
   text-align: center; }
@@ -64,3 +66,9 @@ body {
   @media (min-width: 1200px) {
     .container {
       max-width: 1000px; } }
+
+.center-block {
+  max-width: 200px; }
+  .center-block button {
+    margin-bottom: 10px;
+    border-color: #4bb5c1; }
