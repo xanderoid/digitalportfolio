@@ -52,3 +52,15 @@ body {
 
 .container h1 {
   text-align: center; }
+
+.container {
+  max-width: 98%; }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 600px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 800px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1000px; } }
