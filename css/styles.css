@@ -75,3 +75,11 @@ body {
 
 .live-link {
   text-align: center; }
+
+.navbar-brand {
+  background-repeat: no-repeat;
+  background-image: url("../img/darkstar.png");
+  background-position: center;
+  background-origin: border-box;
+  background-size: contain;
+  background-clip: border-box; }
