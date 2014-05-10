@@ -49,3 +49,6 @@ body {
 .contact-options {
   list-style-type: none !important;
   background: none !important; }
+
+.container h1 {
+  text-align: center; }
