@@ -56,7 +56,7 @@ hr{
 .container h1 {
   text-align: center; }
 
-.container {
+/*.container {
   max-width: 98%; }
   @media (min-width: 768px) {
     .container {
@@ -66,7 +66,7 @@ hr{
       max-width: 800px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1200px; } }
+      max-width: 1200px; } }*/
 
 .center-block {
   max-width: 200px; }
