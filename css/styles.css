@@ -26,6 +26,10 @@ body {
   body ul {
     text-align: left; }
 
+hr{
+  border-top: 2px solid rgb(36, 25, 17);
+}
+
 .page-header {
   text-align: center; }
 
@@ -33,10 +37,7 @@ body {
   font-size: 1em !important;
   text-align: center; }
 
-#nexus5_01 {
-  padding-bottom: 20px !important; }
-
-#nexus5_02 {
+.scrnshot {
   padding-bottom: 20px !important; }
 
 .panel-group {
